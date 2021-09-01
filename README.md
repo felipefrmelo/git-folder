@@ -6,7 +6,7 @@ FIXME: description
 
 Download from https://github.com/felipefrmelo/git-folder.git
 
-Run:
+
     $ chmod +x install.sh
     $ install.sh
 
@@ -18,6 +18,8 @@ Run:
 
 ## Examples
 
-...
+
+    $ git-folder --url https://github.com/felipefrmelo/git-folder/tree/main/src
+    
 
 
