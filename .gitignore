@@ -22,3 +22,5 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 .svn/
+git-folder
+/.lsp/
