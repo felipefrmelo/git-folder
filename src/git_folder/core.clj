@@ -16,7 +16,7 @@
 
 (defn download-folder [url]
   (println  "donw f " url)
-  (let [{out :out  err :err} (sh "svn" "checkout" (str/replace url #"tree/master" "trunk"))]
+  (let [{out :out  err :err} (sh "svn" "checkout" (str/replace url #"tree/\w+/" "/trunk/"))]
     (println out err))
   )
 
