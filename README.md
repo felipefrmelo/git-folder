@@ -6,18 +6,24 @@ FIXME: description
 
 Download from https://github.com/felipefrmelo/git-folder.git
 
-    $ chmod +x install.sh
-    $ install.sh
+```bash
+chmod +x install.sh
+install.sh
+
+```
 
 ## Usage
 
-    $ git-folder --url url
-
+```bash
+git-folder --url url
+```
 
 ## Examples
 
+```bash
+git-folder --url https://github.com/felipefrmelo/git-folder/tree/main/src
+```
 
-    $ git-folder --url https://github.com/felipefrmelo/git-folder/tree/main/src
 
 
 
